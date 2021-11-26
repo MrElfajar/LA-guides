@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+.fooder:before {
+  content: '';
+  padding-bottom: 100%;
+  width: 0;
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+.fooder {
+  grid-auto-rows: 5fr;
+}
+
+.fooder > *:first-child {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+.nav-title {
+	font-family: 'Rubik Mono One', sans-serif;
+}
