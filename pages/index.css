@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
 
 .fooder:before {
-  content: '';
+  content: "";
   padding-bottom: 100%;
   width: 0;
   grid-row: 1 / 1;
@@ -18,5 +18,13 @@
 }
 
 .nav-title {
-	font-family: 'Rubik Mono One', sans-serif;
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+.food-active {
+  border: 3px solid #27e653;
+}
+
+.my-grid-cols-2 {
+  grid-template-columns: 1fr 2fr;
 }
